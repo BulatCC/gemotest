@@ -1,0 +1,90 @@
+.services {
+	overflow: visible;
+}
+
+.services__list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6rem;
+	height: 100%;
+
+	@include vp-768 {
+		gap: 0;
+		overflow: visible;
+	}
+}
+
+.services__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 28rem;
+	border-radius: 0.4rem;
+	transition: opacity var(--default-transition);
+	overflow: hidden;
+
+	@include vp-1024 {
+		min-height: 24rem;
+	}
+
+	@include vp-768 {
+		width: 41vw;
+	}
+
+	@include vp-575 {
+		width: 67.5vw;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.services__img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.services__text {
+	@include vp-1024 {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	}
+}
+
+.services__link {
+	background: var(--gradient-service-card);
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	padding: 3.2rem 4rem 4rem 4rem;
+	color: var(--color-white);
+
+	@include vp-1024 {
+		padding: 2.8rem 3.2rem 3.2rem 3.2rem;
+	}
+}
+
+.services__title {
+	margin-bottom: auto;
+	line-height: 2.8rem;
+
+	@include vp-1024 {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+}
+
+.services__button {
+	align-self: flex-start;
+	margin-top: 2.4rem;
+
+	@include vp-1024 {
+		margin-top: 2rem;
+	}
+}

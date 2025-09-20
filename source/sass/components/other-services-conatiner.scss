@@ -1,0 +1,10 @@
+.other-services-conatiner {
+	.link-green {
+		display: inline-block;
+		margin-top: 1.6rem;
+
+		@include vp-768 {
+			margin-top: 2rem;
+		}
+	}
+}

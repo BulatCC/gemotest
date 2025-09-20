@@ -1,0 +1,16 @@
+:root {
+    // Colors
+    --color-graphite: #292D3A;
+    --color-white: #ffffff;
+    --color-transparent: rgba(255, 255, 255, 0);
+    --color-orange: #F26531;
+    --color-green: #007934;
+    --color-pale-yellow: #FDF8E7;
+    --color-floral-white: #FEFBF3;
+    --color-divider: #EAEAEB;
+    // Gradient
+    --gradient-service-card: linear-gradient(228.59deg, rgba(242, 101, 49, 0.4) 11.24%, rgba(0, 121, 52, 0.4) 91.81%), linear-gradient(0deg, rgba(41, 45, 58, 0.5), rgba(41, 45, 58, 0.5));
+
+    // Transition
+    --default-transition: 0.3s ease;
+}

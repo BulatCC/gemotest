@@ -1,0 +1,14 @@
+.button {
+    display: inline-flex;
+    padding: 0.4rem 1.7rem;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    background-color: var(--color-orange);
+    border-radius: 4rem;
+    white-space: nowrap;
+
+    @include vp-768 {
+		font-size: 1.2rem;
+        padding: 0.3rem 1.6rem;
+	}
+}

@@ -1,0 +1,13 @@
+.pale-grey-title {
+	margin-bottom: 1.6rem;
+	font-weight: 700;
+	font-size: 1.1rem;
+	opacity: 0.3;
+	line-height: 1;
+	text-transform: uppercase;
+
+	@include vp-768 {
+        margin-bottom: 2rem;
+		font-size: 1rem;
+	}
+}

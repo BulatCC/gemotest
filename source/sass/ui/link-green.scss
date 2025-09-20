@@ -1,0 +1,15 @@
+.link-green {
+	font-size: 1.6rem;
+	color: var(--color-green);
+	font-weight: 700;
+	transition: var(--default-transition);
+	line-height: 1;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	@include vp-768 {
+		font-size: 1.3rem;
+	}
+}

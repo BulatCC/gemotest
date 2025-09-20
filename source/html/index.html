@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include("source/html/base/head.html", { "title": "Главная" })
+	<body>
+		<div class="wrapper">
+			<main>
+				<section>
+					<div class="container">
+                        <h1><span class="mobile-hide">Медицинские</span> <span class="mobile-show-inline">Мед.</span> услуги</h1>
+						@@include("source/html/components/services.html")
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="other-services-conatiner">
+							<h2 class="pale-grey-title">Другие медицинские услуги</h2>
+							@@include("source/html/components/other-services.html")
+							<a href="#" class="link-green">Все медицинские услуги Гемотест (35) →</a>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="container">
+						@@include("source/html/components/features.html")
+					</div>
+				</section>
+			</main>
+		</div>
+		@@include("source/html/base/scripts.html")
+	</body>
+</html>
