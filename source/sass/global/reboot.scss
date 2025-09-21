@@ -20,7 +20,7 @@ html {
 	font-family: 'Inter', 'Arial', sans-serif;
 	color: var(--color-graphite);
 	font-weight: 400;
-
+	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	// оптимизация выравнивания шрифта относительно центра строки
